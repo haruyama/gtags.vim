@@ -511,7 +511,7 @@ endfunction
 
 
 :noremap <C-\>   :call <SID>GtagsCursor_x()<CR>
-:noremap <C-R>   :call <SID>GtagsCursor_r()<CR>
+":noremap <C-R>   :call <SID>GtagsCursor_r()<CR>
 :noremap <C-S>   :call <SID>GtagsCursor_s()<CR>
 :noremap <C-d>   :call CloseTag() <CR>
 
